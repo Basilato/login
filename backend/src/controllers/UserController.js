@@ -1,10 +1,13 @@
 const crypto = require('crypto');
 const connection = require('../database/connection');
+const speakeasy = require('speakeasy');
+
 
 module.exports = {
-    async index (request, response) {
-        const users = await connection('users').select('*');
-        return response.json(users);
+    async index (request, response) { // usada rota get usser para passar qr que é utilizado pelo google auth para teste
+        
+        var secret = speakeasy.generateSecret();
+        return response.json(secret.otpauth_url);
     },
 
     async create(request, response) {

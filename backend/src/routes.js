@@ -11,4 +11,6 @@ routes.get('/users', UserController.index);
 routes.post('/users', UserController.create);
 routes.delete('/users/:id', UserController.delete);
 
+
+
 module.exports = routes;
