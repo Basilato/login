@@ -1,4 +1,12 @@
 # login
+Para a leitura do QrCode faça o download do aplicativo <br>
+
+Google Authenticator
+
+https://apps.apple.com/br/app/google-authenticator/id388497605
+
+https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=pt_BR&gl=US
+
 
 Inserir Usuario no banco SQLite <br>
 Utilização de QrCode.<br>
