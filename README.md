@@ -1,5 +1,6 @@
 # login
 Para a leitura do QrCode faça o download do aplicativo <br>
+To read the QR Code, download the application <br>
 
 Google Authenticator
 
@@ -13,12 +14,16 @@ Utilização de QrCode.<br>
 Apos Inserido o Usuario Retorna o ID de acesso<br>
 ID de acesso para entrar no sistema.<br>
 
+Insert User in SQLite database <br>
+Using QRCode.<br>
+After Inserting the User Returns the Access ID<br>
+Access ID to enter the system.<br>
+
 # Using:
    - ReactJs
    - NodeJS
    - SQLite
    
-
 # Quick Start 
 
 git clone <br>
