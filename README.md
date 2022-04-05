@@ -2,7 +2,7 @@
 
 Inserir Usuario no banco SQLite <br>
 Utilização de QrCode.<br>
-Apos Inserido o Usuario Retorda o ID de acesso<br>
+Apos Inserido o Usuario Retorna o ID de acesso<br>
 ID de acesso para entrar no sistema.<br>
 
 # Using:
