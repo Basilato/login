@@ -6,12 +6,9 @@ import api from '../../services/api'
 import './styles.css';
 
 
-
 export default function Register() {
 
     const [auth, setAuth] = useState([]);
-
-    
 
     useEffect(() => {
         api.get('users').then(response => {
